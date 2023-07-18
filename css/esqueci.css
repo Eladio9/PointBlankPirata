@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.fundo1 {
+    background-image: url(../imagens/backgroudesqueci.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
+
+#login1 {
+    width: 580px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    border: double 8px;
+    border-color: rgb(66, 61, 61);
+}
+
+
+#login1{
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite; /* efeito da div mexendo  */
+}
+/* efeito da div mexendo  */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#login1 h1 {
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: 9px;
+    color: white; 
+}
+
+#login1 p {
+    font-size: 20px;
+    margin-left: 5%;
+    color: white;     
+
+}
+
+#recup input {
+    margin-left: 5%;
+    height: 20px;
+    width: 65%; 
+    border: none; 
+    border-bottom: solid 4px;
+    text-align:left; 
+    background-color:rgb(66, 61, 61);
+    border-color:rgba(226, 171, 18, 0.699);
+    
+}
+
+#recup1 input {
+    margin-left: 5%;
+    height: 35px;
+    width: 15%;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgba(75, 69, 69, 0.425);
+    color: white;   
+}
+
+#recup1 input:hover {
+    background-color:rgb(75, 69, 69) ;
+    color: white;
+}
+
+#recup1 {
+    display: flex;
+    gap: 250px;
+}
+
+#recup1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="fundo">
+    <div class="div1">
+        <h4>Cadastro</h4>
+        <p>Tenha acesso gratuito a todos os jogos da Ongame!</p><br>
+       <form action="backend.php" method="post">
+           <div class="registrar1">
+                <label for="email">E-mail</label> 
+                <input type="email"  name="email" id="email"  placeholder="Digite seu e-mail"   data-min-length="1" required="required">  
+            </div>
+            <div class="registrar3">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome" required="required">
+            </div>
+            <div class="registrar2">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome" required="required">
+            </div>
+            <div class="registrar3">
+                <label for="password">Senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Digite sua senha" required="required">
+            </div>
+            <div class="registrar2">
+                <label for="passconfirmation">Senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation"  placeholder="Confirme sua senha" required="required">
+            </div>
+            <div class="registrar1">
+                <input type="checkbox"  name="agreement" id="agreement" >
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="/index.html"> termos de uso </a></label>
+            </div>
+            <div class="registrar1">
+                <input type="submit" id="btn-submit" value="Registrar">
+                <a id="voltar" href="/index.html">Voltar</a>
+            </div>
+        </form>
+       </div>
+       
+    </div>
+</div>
+    <p class="error-validation template"></p>
+
+
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
