@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Tiro em dó maior</title>
 </head>
 <body>
@@ -23,24 +24,242 @@
         
             </a>
         </div>
-        <div class="Menu">
-            <nav>
-                <li>INÍCIO</li>
-                <li>JOGO</li>
-                <li>DUAL</li>
-                <li>E-SPORTS</li>
-                <li>HOME</li>
-                
-            </nav>
-        </div>
-        <main>
-            <div id="pbEv"></div>
-            <div class="btn2">
-            <a href="/abas/cadastro.html" target="_blank" rel="noopener noreferrer"><button>CADASTRAR</button></a>
-            <a href="/abas/cadastro.html" target="_blank" rel="noopener noreferrer"><button>DOWNLOAD</button></a>
-            </div>
-        </main> 
+        <div id="alignNav">
 
-    
+            <!-- modal -->
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
+                JOGAR
+              </button>
+              <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">FAÇA O LOGIN</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                      <button type="button" class="btn btn-primary">IR PARA LOGIN</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- nav -->
+        <nav id="cornav" class="navbar navbar-expand-lg navbar-dark  " >
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse navbar-center" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      JOGOS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    NOTÍCIAS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      RANKING
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ARSENAIS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     COMUNIDADE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     CAMPEONATOS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      DOWNLOAD
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      LOJA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                  </li>
+                  
+              </ul>
+             
+            </div>
+<!-- FIM NAV --> </nav>
+
+
+<!-- modal -->
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
+            BAIXAR
+          </button>
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">CRIE SUA CONTA</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-dark">Salvar mudanças</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="imagens/Point-Blank-main.jpg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Point-Blank-main.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Point-Blank-main.jpg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+            <section id="btnBg">
+                <a href="/abas/cadastro.html" target="_blank" rel="noopener noreferrer"><button>CADASTRAR</button></a>
+                <a href="/abas/cadastro.html" target="_blank" rel="noopener noreferrer"><button>DOWNLOAD</button></a><br>
+        </section>
+
+        <div id="containercard"  class="container-fluid d-flex justify-content-center align-items-center gap-4" >
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagens/maxresdefault.jpg" style="width: 100%;" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Título do card</h5>
+                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Link do card</a>
+                  <a href="#" class="card-link">Outro link</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="imagens/maxresdefault.jpg" style="width: 100%;" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Título do card</h5>
+                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Link do card</a>
+                  <a href="#" class="card-link">Outro link</a>
+                </div>
+              </div>
+              
+          </div>
+
+
+
+          
+          
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
 </body>
 </html>
+<!-- <form class="form-inline my-2 my-lg-0"> -->
+    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"> -->
+    <!-- <button class="btn btn-outline-white my-2 my-sm-0" type="submit">Pesquisar</button> -->
+  <!-- </form> -->
