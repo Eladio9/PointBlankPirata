@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.fundo {
+    background-image: url(/imagens/soldados-forca-especial-militar-futurista_793337-202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+#login {
+    width: 580px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 15px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    border: double 10px;
+    border-color: rgb(66, 61, 61);
+    opacity: 15px;
+    
+
+}
+
+#login{
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite; /* efeito da div mexendo  */
+}
+
+
+/* efeito da div mexendo  */
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#logo {
+    background-image: url(/imagens/pblog-removebg-preview\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -4%;
+    left: -5%;
+}
+
+
+#loginI {
+     width: 54%;
+     height: 25%;
+     margin-left: 25%;
+     
+     
+}
+
+ h2 {
+    font-size: 35px;
+    margin-left: 40%;
+    margin-top: 29px;
+    color: white;  
+}
+
+#loginI input {
+    width: 280px;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: rgb(66, 61, 61);
+    border: none; 
+    border-bottom: solid 4px;
+    border-color:white;
+}
+
+.log {
+    margin-left: 25%;
+    
+}
+
+.log a {
+    color: white;
+}
+
+.log a:hover {
+    color: rgba(226, 171, 18, 0.699);
+}
+
+#entrar {
+    margin-left: 25%;
+    width: 52%;
+    height: 18%;
+    background-color: rgba(75, 69, 69, 0.425);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#entrar:hover {
+    background-color:rgb(75, 69, 69)    ;
+    
+    transition: 3ms;
+}
+
+#loginI input[type="submit"] {
+    
+    background-color:#e60084 ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+#gif {
+ position: absolute;
+ top: 2%;
+}
