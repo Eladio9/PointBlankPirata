@@ -8,8 +8,8 @@
     background-image: url(/imagens/10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1850px;
-    height: 1200px;
+    width: 100% auto;
+    height: 1000px;
      
 
 }
@@ -18,17 +18,21 @@
     background-image: url(/imagens/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1850px;
-    height: 1200px;
+    width: 100% auto;
+    height: 1000px;
 }
 
 #bg3 {
     background-image: url(/imagens/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1850px;
-    height: 1200px;
+    width: 100% auto;
+    height: 1000px;
    
+}
+
+#hover:hover{
+    color: rgb(16, 216, 247);
 }
 
 #footer {
@@ -39,6 +43,146 @@
     justify-content: center;
     border-top: 10px double;
     border-color: #1175a4;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0);
     
+}
+
+#video {
+   background-image: url(/imagens/video.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 590px;
+   height: 350px;
+   margin-top: 150px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#video1 {
+    background-image: url(/imagens/cold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 350px;
+    margin-top: 150px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+#video a {
+    color: white;
+   
+}
+
+#video1 a {
+    color: white;
+   
+}
+
+
+#video1 a:hover {
+    color: black;
+   
+}
+
+#video a:hover {
+    color: black;
+   
+}
+
+
+#texto1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#play {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+#play:hover {
+    
+    background-color: white;
+}
+
+#btnplay {
+    width: 190px;
+}
+
+#inline {
+    display: none;
+}
+
+#btnBaixar1 {
+    margin-left: 70%;
+    width: 20%;
+}
+
+#btnBaixar {
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 20%;
+}
+
+#form1 {
+    width: 400px;
+    margin-left: 40%;
+}
+
+
+
+@media (max-width: 737px) {
+    #video {
+        
+        margin-top: 10px;
+        
+     }
+
+     #texto1 {
+        display: none;
+     }
+
+     #inline{
+        display: inline-block;
+     }
+
+
+     #video1{
+        display: none;
+     }
+
+     #none{
+        display: none;
+     }
+
+     #btnBaixar {
+        margin-top: 15px;
+        margin-left:5%;
+       
+        width: 90%;
+    }
+
+    #btnBaixar1 {
+        display: none;
+    }
+
+    #form {
+        display: none;
+    }
+
+    #form1 {
+       display: none;
+    }
+    
+    
+     
 }

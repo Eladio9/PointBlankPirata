@@ -143,14 +143,23 @@ button:hover {
     width: 18%;
 }
 
+#hover:hover{
+    color: rgb(16, 216, 247);
+}
+
+
 @media (max-width: 737px)  {
     
     #btn5 {
           display: none ;
     }
 
-    #btn5 {
+    #btn6 {
           display: none ;
+    }
+
+    #btnBaixar {
+        display: none;
     }
 
     #btnBg button {
@@ -173,5 +182,8 @@ button:hover {
     #textBlack1 h3 {
         font-size:15px ; 
        }
+       
+       
+
 }
  
