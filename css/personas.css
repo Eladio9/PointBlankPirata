@@ -13,23 +13,16 @@
      
 
 }
-
 #bg2 {
-    background-image: url(/imagens/4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100% auto;
-    height: 1000px;
-}
-
-#bg3 {
     background-image: url(/imagens/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100% auto;
     height: 1000px;
-   
+    
 }
+
+
 
 #hover:hover{
     color: rgb(16, 216, 247);
@@ -138,6 +131,140 @@
     margin-left: 40%;
 }
 
+#paic {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+#fi1 {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+#fi2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#img1 {
+    background-image: url(/imagens/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#img1:hover {
+    #mp4 {
+        display: block;
+    }
+}
+
+#img2 {
+    background-image: url(/imagens/3war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#img2:hover {
+    #mp4 {
+        display: block;
+    }
+}
+
+#img3 {
+    background-image: url(/imagens/4war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#img3:hover {
+    #mp4 {
+        display: block;
+    }
+}
+
+#img4 {
+    background-image: url(/imagens/5war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#img4:hover {
+    #mp4 {
+        display: block;
+    }
+}
+
+#imag1 {
+    background-image: url(/imagens/7war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#imag1:hover {
+    #mp4 {
+        display: block;
+    }
+}
+
+
+#imag2 {
+    background-image: url(/imagens/cold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#imag3 {
+    background-image: url(/imagens/10war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#imag4 {
+    background-image: url(/imagens/7war.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+#mp4 {
+    display: none;
+    width: 100%;
+    height: 100%;
+
+
+}
 
 
 @media (max-width: 737px) {
