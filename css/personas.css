@@ -13,23 +13,16 @@
      
 
 }
-
 #bg2 {
-    background-image: url(/imagens/4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100% auto;
-    height: 1000px;
-}
-
-#bg3 {
     background-image: url(/imagens/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100% auto;
     height: 1000px;
-   
+    
 }
+
+
 
 #hover:hover{
     color: rgb(16, 216, 247);
