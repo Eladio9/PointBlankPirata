@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     
+    
 }
 
 #rankPAI {
@@ -24,6 +25,7 @@
     justify-content: center;
     gap: 5px;
     border: dotted 4px rgb(0, 177, 197);
+    border-radius: 25px;
 }
 
 #rank {
@@ -54,16 +56,17 @@
 }
 
 
-@media (max-width: 737px) {
+@media (max-width: 1300px) {
     #rankfi1 {
         gap: 3px;
     }
 
     #rankfi {
         gap: 3px;
+        font-size:14px;
     }
 
-    h1 {
-        font-size: 9px;
+    #rankPAI h1 {
+      font-size:18px ;  
     }
 }
