@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    min-height: 100vh;
+    background: radial-gradient(610px at 5.2% 51.6%, rgb(5, 6, 34) 0%, rgb(0, 0, 0) 97.5%);
+  }
+  
+  .side-bar{
+    background-image: url(/imagens/warface-xbox-360-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter:blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: -100%;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+  }
+  
+  .side-bar.active{
+    left: 0;
+  }
+  
+  .side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  .side-bar .menu .item{
+    position:relative;
+    cursor:pointer;
+  }
+  
+  .side-bar .menu .item a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+  }
+  
+  .side-bar .menu .item a:hover{
+    background: #bebcbc80;
+    transition: 0.3s ease;
+  
+  }
+  
+  .side-bar .menu .item i{
+    margin-right: 15px;
+  }
+  
+  .side-bar .menu .item a .dropdown{
+  
+    position: absolute;
+    right:0;
+    margin: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .side-bar .menu .item .sub-menu{
+    background: rgba(255,255,255 , 0.1);
+    display:none;
+  }
+  
+  .side-bar .menu .item .sub-menu a{
+    padding-left: 80px;
+  }
+  
+  .rotate{
+    transform: rotate(90deg);
+  }
+  
+  .close-btn{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 0;
+    margin: 25px;
+    cursor: pointer;
+  }
+  
+  
+  .menu-btn{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    margin: 25px;
+    cursor:pointer;
+  }
+
+  #sctPai {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+      }
+    
+#mold {
+    width: 85vw;
+    height: 100vh;
+    background-color: rgba(21, 21, 21, 0.321);
+    border-radius: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+#cdn-pai {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    justify-content: center;
+}
+
+#cdn-fi {
+    width: 450px;
+    height: 270px;
+    background-image: url(/imagens/216.png);   
+}
+
+#cdn-fia {
+    width: 450px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 23px;
+    color: white;
+}
+
+#cdn-fia:hover {
+    color: orange;
+}
+
+#cdn-fi1 {
+    width: 450px;
+    height: 270px;
+    background-image: url(/imagens/20161027091743_30742.png);   
+}
+
+#cdn-fia1 {
+    width: 450px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 23px;
+    color: white;
+}
+
+#cdn-fia1:hover {
+    color: orange;
+}
+
+
+@media (max-width:1095px) {
+  #mold {
+    width: 85%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:1000px){
+  #mold {
+    width: 85%;
+    height: 100%;
+  }
+  
+  #cdn-fia {
+    display: none;
+  }
+
+  #cdn-fia1 {
+   display: none;
+  }
+
+}
